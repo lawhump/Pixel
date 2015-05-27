@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pixel</title>
+        
+        <link rel="shortcut icon" href="assets/img/favicon.ico"/>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".navbar-default" data-offset="70">
+    
+<!--
+        <div class="visible-lg">
+            <p class="text-center btn-danger">
+                Large devices Desktops (≥1200px)
+            </p>
+        </div>
+        
+        <div class="visible-md">
+            <p class="text-center btn-warning">
+                Medium devices Desktops (≥992px)
+            </p>
+        </div>
+        
+        <div class="visible-sm">
+            <p class="text-center btn-info">
+                Small devices Tablets ( (≥768px))
+            </p>
+        </div>
+        
+        <div class="visible-xs">
+            <p class="text-center btn-success">
+                Extra small devices Phones ( less than 768px)
+            </p>
+        </div>
+-->
+        
+        <!-- xs and sm navbar -->
+        <nav class="hidden-xs hidden-sm navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="#"><img src="assets/img/logo.png"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-tabs" role="tablist">
+                        <li class="ignore"><a href="#carousel-example-generic"></a></li>
+                        <li><a href="#section-2">SERVICES</a></li>
+                        <li><a href="#section-3">TESTIMONIALS</a></li>
+                        <li><a href="#section-4">CREW</a></li>
+                        <li><a href="#section-5">GALLERY</a></li>
+                        <li><a href="#section-6">PARTNERS</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <button type="button" class="btn btn-success navbar-btn cta-button"><span class="glyphicon glyphicon-earphone"></span> Drop us a line!</button>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- md and lg navbar -->
+        <nav class="hidden-md hidden-lg navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand logo" href="#"><img src="assets/img/logo.png"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#section-2">SERVICES</a></li>
+                    <li><a href="#section-3">TESTIMONIALS</a></li>
+                    <li><a href="#section-4">CREW</a></li>
+                    <li><a href="#section-5">GALLERY</a></li>
+                    <li><a href="#section-6">PARTNERS</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <button type="button" class="btn btn-success navbar-btn cta-button"><span class="glyphicon glyphicon-earphone"></span> Drop us a line!</button>
+                </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <div class="visible-xs container-fluid landing-page">
+            <h1 class="landing-text">We believe in the power of a live meeting.</h1>
+            <button class="btn btn-success landing-button">Work with us!</button>
+        </div>
+        
+        <div id="carousel-example-generic" class="hidden-xs animated-block carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="assets/img/i_Splice%202.png" alt="slide2">
+                    <div class="carousel-caption my-cap">
+                        <h1>We believe in the power of a live meeting.</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/i_Splice%204.png" alt="slide2">
+                    <div class="carousel-caption my-cap">
+                        <h1>Vestibulum consectetur, augue at vulputate.</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/i_Splice%207.png" alt="slide2">
+                    <div class="carousel-caption my-cap">
+                        <h1>Ut a erat justo. Nunc interdum, nisi vitae convallis lacinia.</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a id="left" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a id="right" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Three columns of text below the carousel -->
+        <div id="section-2" class="container marketing">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                    <img class="img-circle marketing-pics" src="assets/img/icon-inspire.png" alt="">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                </div><!-- /.col-sm-4 -->
+                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                    <img class="img-circle marketing-pics" src="assets/img/icon-unite.png" alt="">
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                </div><!-- /.col-sm-4 -->
+                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                    <img class="img-circle marketing-pics" src="assets/img/icon-inspire.png" alt="">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                </div><!-- /.col-sm-4 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+
+
+
+        <div id="section-3" class="container-fluid section-3">
+            <div class="row featurette">
+<!--                <div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">-->
+                <div class="hidden-xs col-sm-3 col-sm-offset-0 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
+                    <img class="img-responsive featurette-image" src="assets/img/Billy.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-2 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+                    <div class="hidden-xs row">
+                        <div class="col-xs-4"><button value="0" onclick="whichPic(this)" type="button" class="btn btn-info my-butt">Customers</button></div>
+                        <div class="col-xs-4"><button value="1" onclick="whichPic(this)" type="button" class="btn btn-info my-butt">Employers</button></div>
+                        <div class="col-xs-4"><button value="2" onclick="whichPic(this)" type="button" class="btn btn-info my-butt">Partners</button></div>
+                    </div>
+                    <div class="row quotes">
+                        <h1 class="lead">"Praesent blandit est massa, a vestibulum eros aliquet auctor. Mauris in vestibulum magna. Sed vitae risus interdum, commodo nisi at, efficitur nibh."</h1>
+                    </div>
+                    <div class="row description">
+                        <h4><small>-Billy, the Hero</small></h4>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 hidden-sm hidden-md hidden-lg">
+                    <img  class="img-responsive featurette-image" src="assets/img/Billy.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="section-4" class="container section-4">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-1 section-4-content">
+                    <div class="row section-heading">
+                        <h3>Some text will go here</h3>
+                    </div>
+                    <div class="row section-content">
+                        <p>Morbi placerat, ex sit amet lobortis congue, nunc eros sagittis lectus, a vestibulum nisi ex vitae metus. Mauris fermentum ac diam id consequat. Nullam tempus, dui et mattis sollicitudin, odio mi mollis ipsum, et porttitor mauris velit vel dolor. Integer ornare efficitur pharetra. Nullam pellentesque magna quis accumsan laoreet. Aliquam viverra nulla at sagittis scelerisque. Etiam in nibh sem. Donec condimentum suscipit eros non ultricies. Nam vel orci faucibus, sollicitudin orci elementum, gravida quam. Duis ac lectus ante. Integer a nibh sagittis sapien dapibus fringilla sed vitae velit. Proin sit amet lectus suscipit, elementum ante sit amet, accumsan dui.</p>
+                    </div>
+                </div>
+                
+                <div class="hidden-xs hidden-sm visible-md visible-lg col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
+                            <h5 class="top-caption">Mike, the man</h5>
+
+                            
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-container-bot" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+<!--                            <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">-->
+                            <h5 class="bot-caption hidden-xs hidden-sm">Mike, the man</h5>
+                        </div>
+                        <div class="col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
+                            <h5 class="top-caption hidden-xs hidden-sm">Mike, the man</h5>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flip-container-bot" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!--                            <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">-->
+                            <h5 class="bot-caption hidden-xs hidden-sm">Mike, the man</h5>
+                        </div>
+                        <div class="col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
+                            <h5 class="top-caption hidden-xs hidden-sm">Mike, the man</h5>
+                            
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            <div class="flip-container-bot" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+<!--                            <img class="img-circle staff-pics bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike">-->
+                            <h5 class="bot-caption hidden-xs hidden-sm">Mike, the man</h5>
+                        </div>
+                    </div>
+<!--                <div class="row visible-xs visible-sm hidden-md hidden-lg">
+                        <div class="col-xs-3 col-xs-offset-9"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                        <div class="col-xs-3 col-xs-offset-0"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                        <div class="col-xs-3 col-xs-offset-9"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                        <div class="col-xs-3 col-xs-offset-0"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                        <div class="col-xs-3 col-xs-offset-9"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                        <div class="col-xs-3 col-xs-offset-0"><img class="img-circle staff-pics hvr-wobble-skew bot-staff-pic" src="assets/img/profile%201.png" alt="ogmike"></div>
+                    </div>-->
+                </div>
+                <div class="hidden-xs visible-sm hidden-md hidden-lg col-xs-7 col-xs-offset-0 col-sm-5 col-sm-offset-0">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-0">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                    <!-- front content -->
+                                        <img class="img-circle staff-pics" src="assets/img/profile%201.png" alt="ogmike">
+                                    </div>
+                                
+                                
+                                    <div class="back">
+                                        <div class="button-container">
+                                            <button class="btn link-button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="section-5" class="container-fluid section-5">
+            <div class=" hidden-xs regular-gallery row">
+                <div class="col-xs-9 col-xs-offset-0 quad-2">
+                    <div class="row">
+                        <div id="trouble" class="col-xs-4 col-xs-offset-0 gallery-pics"><img id="gpic1" class="img-responsive" src="assets/img/i_Splice%201.png" alt="Generic placeholder image"></span>
+                        </div>
+                        <div class="col-xs-8 gallery-pics"><img id="gpic2" class="img-responsive" src="assets/img/i_Splice%202.png" alt="Generic placeholder image"></div>
+                        <div class="col-xs-8 gallery-pics"><img class="img-responsive" src="assets/img/i_Splice%204.png" alt="Generic placeholder image"></div>
+                        <div class="col-xs-4 gallery-pics"><h3>Fusce malesuada luctus orci, ac posuere urna vestibulum ac. Mauris a nulla nunc. Nam id neque in massa ullamcorper vulputate. Nulla condimentum id purus at elementum. Suspendisse pellentesque, orci et sodales elementum, nulla dolor convallis elit.</h3></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 quad-1 gallery-pics"><img class="img-responsive" src="assets/img/i_Splice%203.png" alt="Generic placeholder image">
+                </div>
+            </div>
+<!--
+            <div class="row quad-3-4">
+                <div class="col-xs-3 gallery-pics"><img class="img-responsive gallery-pics" src="assets/img/i_Splice%205.png" alt="Generic placeholder image"></div>
+                <div class="col-xs-3 info img__media gallery-pics info-img-2"><img class="img-responsive gallery-pics" src="assets/img/i_Splice%206.png" alt="Generic placeholder image"><span class="glyphicon glyphicon-info-sign info-button white"></span>
+                    <div class="info__overlay">
+                        <h3 class="info__overlay__title">Heading</h3>
+                        <p  class="info__overlay__content">This is dummy text that will appear over the image</p>   
+                    </div>
+                </div>
+                <div class="col-xs-6 gallery-pics"><img class="img-responsive gallery-pics" src="assets/img/i_Splice%207.png" alt="Generic placeholder image"></div>
+            </div> -->
+            
+            <div class="hidden-sm hidden-md hidden-lg mobile-gallery row">
+                <div class="col-xs-6"><img class="sq-pic img-responsive img-thumbnail" src="assets/img/i_Splice%201.png" alt="Generic placeholder image"></div>
+                <div class="col-xs-6"><img class="sq-pic img-responsive img-thumbnail" src="assets/img/i_Splice%202.png" alt="Generic placeholder image"></div>
+                <div class="col-xs-6"><img class="sq-pic img-responsive img-thumbnail" src="assets/img/i_Splice%204.png" alt="Generic placeholder image"></div>
+                <div class="col-xs-6"><img class="sq-pic img-responsive img-thumbnail" src="assets/img/i_Splice%203.png" alt="Generic placeholder image"></div>
+                <div class="col-xs-6"><h3>This will be text</h3></div>
+                <div class="col-xs-6"><img class="sq-pic img-responsive img-thumbnail" src="assets/img/i_Splice%205.png" alt="Generic placeholder image"></div>
+            </div>
+        </div>
+        
+<!--
+        <div id="section-5" class="container-fluid section-5">
+            <div class="row gallery-wrapper">
+                <div class="col-xs-9 gallery-1">
+                    <div class="row">
+                        <div class="col-xs-4 info-img"><img class="img-responsive img-1" src="assets/img/i_Splice%201.png" alt="pic1"><span class="glyphicon glyphicon-info-sign white"></span></div>
+                        <div class="col-xs-8"><img class="img-responsive img-2" src="assets/img/i_Splice%202.png" alt="pic1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-9"><img class="img-responsive img-3" src="assets/img/i_Splice%204.png" alt="pic1"></div>
+                        <div class="col-xs-3"></div>
+                    </div>
+                </div>
+                <div class="col-xs-3 gallery-2 info-img"><img class="img-responsive img-4" src="assets/img/i_Splice%203.png" alt="pic1"><span class="glyphicon glyphicon-info-sign white"></span>
+                </div>
+            </div>
+        </div>
+-->
+        
+        <div id="section-6" class="container section-6">
+            <div class="row">
+                <div class="hidden-xs col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 circle-cont">
+<!--                    <div id="circles"></div>-->
+                    <div id="big-circle" class="circle big">
+                        <div class="circle one"><img src="assets/img/logo.svg"></div>
+                        <div class="circle two"></div>
+                        <div class="circle three"></div>
+                        <div class="circle four"></div>
+                        <div class="circle five"></div>
+                        <div class="circle six"></div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-lg-12 partners-text">
+                            <h4>Example heading</h4>
+                            <p>Typewriter heirloom biodiesel lomo, tattooed Intelligentsia single-origin coffee chia. Tofu forage fap Portland, kale chips shabby chic tilde keffiyeh street art hella hashtag pickled organic pork belly. Artisan stumptown Neutra, gluten-free High Life beard fap dreamcatcher crucifix sartorial drinking vinegar umami Etsy normcore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid cta-field">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 cta-content">
+                    <h2>Let's work together</h2>
+                    <button type="button" class="btn btn-success">Ring us up!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/circles.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/gallery.js"></script>
+    </body>
+</html>
